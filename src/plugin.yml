@@ -1,0 +1,20 @@
+main: com.rievrs.proEssentials.Main
+version: 1.0
+name: ProEssentials
+api-version: 1.17
+commands:
+    spawn:
+        description: Go to the map spawnpoint
+        usage: /<command>
+    fake:
+        description: fake
+        usage: /<command>
+    craft:
+        description: Open a crafting table
+        usage: /<command>
+    ec:
+        description: Open a enderchest
+        usage: /<command>
+    stats:
+       description: Show the stats of a player
+       usage: /<command> <optional nickname>
