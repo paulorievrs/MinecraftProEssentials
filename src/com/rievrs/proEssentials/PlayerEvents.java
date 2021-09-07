@@ -36,6 +36,7 @@ public class PlayerEvents implements Listener {
 	@EventHandler
 	public void onPlayerJoin(PlayerJoinEvent event) {
 		Player p = event.getPlayer();
+		
 		String nickStyle = ChatColor.GREEN + "" + ChatColor.BOLD + "PLEBEU " + ChatColor.GREEN + p.getName() + ChatColor.WHITE;
 		
 		if(p.isOp()) {
